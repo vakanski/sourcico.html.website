@@ -319,6 +319,12 @@ button {
     padding: 30px 30px;
 }
 
+.clean .header {
+    width: 100%;
+    background: #009aff;
+    padding: 30px 30px 0px 30px;
+}
+
 .logo a {
     font-size: 40px;
     font-weight: bold;
@@ -405,6 +411,12 @@ button {
     flex-wrap: wrap;
 }
 
+.tech {
+    -ms-flex: 0 0 19.666667%;
+    flex: 0 0 19.666667%;
+    max-width: 19.666667%;
+}
+
 
 /** business section **/
 
@@ -446,6 +458,14 @@ button {
     padding: 35px 0px;
 }
 
+.technologies .business_box p {
+    padding: 5px 0px 35px 0px;
+}
+
+.technologies .tech-image {
+    margin-bottom: 20px;
+}
+
 .business .business_box .read_more {
     background: #252525;
     color: #fff;
@@ -455,13 +475,19 @@ button {
     background: #0891f8;
 }
 
+.mission {
+    width: 50% !important;
+    vertical-align: top;
+}
+
 
 /** end business section **/
 
 
 /** projects section **/
 
-.projects {
+.projects,
+.services {
     padding-top: 90px;
     position: relative;
 }
@@ -476,7 +502,8 @@ button {
     top: -210px;
 }
 
-.projects .titlepage span {
+.projects .titlepage span,
+.services .titlepage span {
     color: #0891f8;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
@@ -486,24 +513,29 @@ button {
     display: inline-block;
 }
 
-.projects .titlepage h2 {
+.projects .titlepage h2,
+.services .titlepage h2 {
     color: #272f43;
     font-weight: normal;
 }
 
-.projects .projects_box {
+.projects .projects_box,
+.services .projects_box {
     text-align: center;
 }
 
-.projects .projects_box figure {
-    margin: 0;
+.projects .projects_box figure,
+.services .projects_box figure {
+    margin: 0px 0px 30px 0px;
 }
 
-.projects .projects_box figure img {
+.projects .projects_box figure img,
+.services .projects_box figure img {
     width: 70%;
 }
 
-.projects .projects_box p {
+.projects .projects_box p,
+.services .projects_box p {
     color: #000;
     font-size: 17px;
     line-height: 28px;
@@ -525,11 +557,15 @@ button {
 
 /** Testimonial section **/
 
+.Testimonial_sec {
+    background-color: #0891f8;
+}
+
 .Testimonial {
-    background: url(../images/test.png);
+    background-color: #0891f8;
     background-repeat: no-repeat;
     margin-top: 90px;
-    padding: 90px 0px;
+    padding: 120px 0px 200px 0px;
     background-position: center;
     background-size: 100% 100%;
 }
@@ -749,6 +785,7 @@ button {
 
 ul.social_icon {
     text-align: center;
+    margin-top: 40px;
 }
 
 ul.social_icon li {
