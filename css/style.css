@@ -334,7 +334,7 @@ button {
 }
 
 .banner_main {
-    padding: 90px 0 190px 0;
+    padding: 70px 0 190px 0;
 }
 
 .text-bg {
@@ -467,12 +467,12 @@ button {
 }
 
 .business .business_box .read_more {
-    background: #252525;
+    background: #0891f8;
     color: #fff;
 }
 
 .business .business_box .read_more:hover {
-    background: #0891f8;
+    background: #252525;
 }
 
 .mission {
@@ -492,6 +492,11 @@ button {
     position: relative;
 }
 
+.career {
+    padding-top: 90px;
+    position: relative;
+}
+
 .projects::after {
     position: absolute;
     content: "";
@@ -503,7 +508,8 @@ button {
 }
 
 .projects .titlepage span,
-.services .titlepage span {
+.services .titlepage span,
+.career .titlepage span {
     color: #0891f8;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
@@ -514,7 +520,8 @@ button {
 }
 
 .projects .titlepage h2,
-.services .titlepage h2 {
+.services .titlepage h2,
+.career .titlepage h2 {
     color: #272f43;
     font-weight: normal;
 }
@@ -524,13 +531,30 @@ button {
     text-align: center;
 }
 
+.career .projects_box {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    border: 1px solid #b7b7b7;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px 20px 30px 20px;
+}
+
 .projects .projects_box figure,
 .services .projects_box figure {
     margin: 0px 0px 30px 0px;
 }
 
+.career .projects_box figure {
+    margin: 0px 0px 30px 0px;
+}
+
 .projects .projects_box figure img,
 .services .projects_box figure img {
+    width: 70%;
+}
+
+.career .projects_box figure img {
     width: 70%;
 }
 
@@ -542,13 +566,33 @@ button {
     padding: 0px 0px 35px 0px;
 }
 
+.career .projects_box p {
+    color: #000;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0px 0px 35px 0px;
+}
+
 .projects .projects_box .read_more {
-    background: #252525;
+    background: #4d5052;
     color: #fff;
 }
 
 .projects .projects_box .read_more:hover {
+    background: #252525;
+}
+
+.career .projects_box .read_more {
     background: #0891f8;
+    color: #fff;
+}
+
+.career .projects_box .read_more:hover {
+    background: #252525;
+}
+
+.career .inner_box {
+    min-height: 440px;
 }
 
 
@@ -682,7 +726,7 @@ button {
 .contact .main_form .send_btn {
     font-size: 17px;
     transition: ease-in all 0.5s;
-    background-color: #000;
+    background-color: #008df3;
     color: #fff;
     padding: 13px 0px;
     margin: 0 auto;
@@ -690,13 +734,13 @@ button {
     margin-top: 30px;
     width: 100%;
     max-width: 190px;
+    border-radius: 10px;
 }
 
 .contact .main_form .send_btn:hover {
-    background-color: #008df3;
+    background-color: #000;
     transition: ease-in all 0.5s;
     color: #fff;
-    border-radius: 26px;
 }
 
 #contact *::placeholder {
@@ -828,7 +872,7 @@ ul.social_icon li a:hover {
 
 .copyright p {
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     text-align: center;
 }
@@ -843,3 +887,60 @@ ul.social_icon li a:hover {
 
 
 /** end footer **/
+
+
+/* internship section */
+
+.internship {
+    text-align: left;
+}
+
+.internship li {
+    list-style: disc;
+    margin-inline-start: 20px;
+    color: #000;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0px 0px 0px 40px;
+    font-weight: 300;
+}
+
+.contact_sec {
+    background-color: #0891f8;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    padding: 60px 0px 60px 0px;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.contact_i h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.contact_i p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 25px 0;
+    /* padding-right: 200px; */
+}
+
+.contact_i h2 {
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 45px;
+    font-weight: bold;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.c_page {
+    padding-top: 0px;
+}
