@@ -668,6 +668,7 @@ button {
     line-height: 28px;
     padding: 25px 0;
     padding-right: 200px;
+    min-height: 200px;
 }
 
 
