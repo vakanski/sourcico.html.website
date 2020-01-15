@@ -693,9 +693,11 @@ button {
 
 .main_form {
     padding: 50px 50px;
-    border: #008df3 solid 1px;
     border-radius: 40px;
     margin: 0px 80px;
+    -webkit-box-shadow: 0px 0px 52px 1px rgba(5, 5, 5, 0.3);
+    -moz-box-shadow: 0px 0px 52px 1px rgba(5, 5, 5, 0.3);
+    box-shadow: 0px 0px 52px 1px rgba(5, 5, 5, 0.3);
 }
 
 .contact .main_form .form_contril {
