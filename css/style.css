@@ -476,8 +476,10 @@ button {
 }
 
 .mission {
-    width: 50% !important;
+    width: 50%!important;
     vertical-align: top;
+    text-align: center;
+    margin: 0 auto !important;
 }
 
 
@@ -946,4 +948,10 @@ ul.social_icon li a:hover {
 
 .c_page {
     padding-top: 0px;
+}
+
+.tech_icon {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto !important;
 }
